@@ -34,7 +34,7 @@ A conversational AI bot built with Streamlit that generates ATS-optimized cover 
 
 ## Architecture
 
-User (Browser) → Streamlit Chat UI → Session State Manager → ATS Prompt Builder → LLM (OpenAI / Azure) → Cover Letter Generator → PDF / Word Export (Download)
+User (Browser) → Streamlit Chat UI → Session State Manager → ATS Prompt Builder → LLM (OpenAI) → Cover Letter Generator → PDF / Word Export (Download)
 
 Design principles:
 - Modular and production-safe
